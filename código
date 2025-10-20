@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Casamento Infantil — Informação e Ação</title>
+  <meta name="description" content="Informações, causas, consequências e como agir contra o casamento infantil." />
+  <style>
+    :root{--bg:#f7fafc;--card:#ffffff;--accent:#2b6cb0;--muted:#6b7280;--danger:#e53e3e}
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial;line-height:1.5;margin:0;background:var(--bg);color:#0f172a}
+    .container{max-width:1000px;margin:0 auto;padding:24px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:56px;height:56px;background:linear-gradient(135deg,var(--accent),#9bc0e8);border-radius:12px;display:grid;place-items:center;color:white;font-weight:700}
+    nav a{margin-left:14px;color:var(--accent);text-decoration:none;font-weight:600}
+    .hero{background:linear-gradient(90deg,rgba(43,108,176,0.08),rgba(43,108,176,0.03));border-radius:12px;padding:28px;margin:18px 0;display:grid;grid-template-columns:1fr;gap:18px}
+    h1{font-size:clamp(22px,3vw,34px);margin:0}
+    p.lead{margin:0;color:var(--muted)}
+
+    .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+    @media(max-width:800px){.grid{grid-template-columns:1fr}}
+    .card{background:var(--card);padding:18px;border-radius:10px;box-shadow:0 6px 18px rgba(15,23,42,0.06)}
+    h2{margin-top:0}
+    ul{margin:0;padding-left:18px}
+    .cta{display:inline-block;padding:10px 14px;border-radius:8px;background:var(--accent);color:white;text-decoration:none;font-weight:600}
+    footer{margin-top:28px;padding:18px 0;color:var(--muted);text-align:center}
+    .pill{display:inline-block;padding:6px 10px;border-radius:999px;background:#e6f0fb;color:var(--accent);font-weight:600}
+    .stats{display:flex;gap:12px;flex-wrap:wrap}
+    .stat{flex:1;min-width:140px;padding:14px;background:#f8fafc;border-radius:10px;text-align:center}
+    small{color:var(--muted)}
+    .resources a{display:block;color:var(--accent);text-decoration:none;margin:6px 0}
+    .contact form{display:flex;flex-direction:column;gap:8px}
+    input,textarea{padding:10px;border-radius:8px;border:1px solid #e6eef8;font-size:14px}
+    button{padding:10px 14px;border-radius:8px;border:0;background:var(--accent);color:white;font-weight:700}
+    .disclaimer{font-size:13px;color:var(--muted)}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">CI</div>
+        <div>
+          <div style="font-weight:800">Casamento Infantil</div>
+          <small style="color:var(--muted)">Informação • Prevenção • Ação</small>
+        </div>
+      </div>
+      <nav aria-label="menu principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#causas">Causas</a>
+        <a href="#consequencias">Consequências</a>
+        <a href="#agir">Como Ajudar</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" role="banner">
+        <div>
+          <h1>Entendendo o Casamento Infantil</h1>
+          <p class="lead">O casamento infantil é toda união formal ou informal em que um ou ambos os cônjuges têm menos de 18 anos. Esta página reúne informações, dados, leis e ações possíveis para prevenir e apoiar vítimas.</p>
+        </div>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center">
+          <a class="cta" href="#agir">Saiba como ajudar</a>
+          <div class="pill">Proteja a infância</div>
+        </div>
+      </section>
+
+      <section id="sobre" class="card">
+        <h2>O que é o casamento infantil?</h2>
+        <p>Considera-se <strong>casamento infantil</strong> qualquer união em que uma das partes é menor de 18 anos. Pode ocorrer com registro civil ou em cerimônias/tradições locais sem registro — o que dificulta dados oficiais e a proteção jurídica.</p>
+      </section>
+
+      <section class="grid" style="margin-top:16px">
+        <article id="causas" class="card">
+          <h2>Causas principais</h2>
+          <ul>
+            <li>Pobreza e insegurança econômica</li>
+            <li>Tradições culturais e pressões sociais</li>
+            <li>Falta de acesso à educação</li>
+            <li>Gravidez precoce e relações forçadas</li>
+            <li>Desigualdade de gênero</li>
+          </ul>
+        </article>
+
+        <article id="consequencias" class="card">
+          <h2>Consequências</h2>
+          <ul>
+            <li>Interrupção dos estudos e menor inserção no mercado de trabalho</li>
+            <li>Riscos elevados na gravidez e no parto</li>
+            <li>Maior vulnerabilidade à violência doméstica</li>
+            <li>Reprodução do ciclo de pobreza</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="card" style="margin-top:18px">
+        <h2>Estatísticas (visão geral)</h2>
+        <div class="stats">
+          <div class="stat">
+            <div style="font-size:20px;font-weight:800">12M+</div>
+            <small>meninas se casam antes dos 18 a cada ano (estimativa mundial).</small>
+          </div>
+          <div class="stat">
+            <div style="font-size:20px;font-weight:800">Brasil</div>
+            <small>alto número absoluto de casamentos infantis; muitas uniões são informais.</small>
+          </div>
+        </div>
+        <p class="disclaimer">Observação: números variam por fonte e ano. Para dados atualizados, consulte organizações como UNICEF e IBGE.</p>
+      </section>
+
+      <section id="leis" class="card" style="margin-top:18px">
+        <h2>Leis e proteção</h2>
+        <p>No Brasil, o casamento de menores de 16 anos é proibido; entre 16 e 18 só com autorização dos pais. Há tratados internacionais (Conv. dos Direitos da Criança) que protegem o direito à infância e à não exploração.</p>
+      </section>
+
+      <section id="agir" class="card" style="margin-top:18px">
+        <h2>Como você pode ajudar</h2>
+        <ul>
+          <li><strong>Educação:</strong> apoie programas que mantenham meninas e meninos na escola.</li>
+          <li><strong>Conscientização:</strong> promova campanhas locais e dialogue com famílias e líderes comunitários.</li>
+          <li><strong>Apoio direto:</strong> encaminhe vítimas para redes de proteção, serviços sociais e saúde.</li>
+          <li><strong>Fiscalização:</strong> denuncie uniões forçadas às autoridades competentes.</li>
+        </ul>
+      </section>
+
+      <section class="grid" style="margin-top:18px">
+        <div class="card resources">
+          <h2>Recursos úteis</h2>
+          <a href="https://www.unicef.org/" target="_blank" rel="noopener">UNICEF</a>
+          <a href="https://www.onu.org/" target="_blank" rel="noopener">Nações Unidas</a>
+          <a href="https://www.gov.br/mdh/" target="_blank" rel="noopener">Ministério dos Direitos Humanos (Brasil)</a>
+          <a href="#" aria-disabled="true">ONGs locais e abrigos (procure na sua cidade)</a>
+        </div>
+
+        <div class="card contact">
+          <h2>Contato / Denúncia</h2>
+          <p>Se alguém está em situação de risco, procure os canais locais (Conselho Tutelar, delegacia de polícia especializada, serviços de assistência social).</p>
+          <form onsubmit="event.preventDefault();alert('Obrigado — formulário de contato simulado. Para ações reais, entre em contato com serviços locais.');">
+            <input type="text" placeholder="Seu nome (opcional)" />
+            <input type="email" placeholder="E-mail (opcional)" />
+            <textarea rows="3" placeholder="Mensagem ou informação relevante"></textarea>
+            <button type="submit">Enviar (simulado)</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="card" style="margin-top:18px">
+        <h2>Material para professor(es)</h2>
+        <p>Se você for educador(a), use este roteiro curto em sala:</p>
+        <ol>
+          <li>Apresente o conceito e peça que os alunos definam "infância".</li>
+          <li>Mostre consequências — saúde, educação, economia.</li>
+          <li>Debata soluções locais e elaborem uma campanha de conscientização.</li>
+        </ol>
+      </section>
+
+    </main>
+
+    <footer>
+      <small>Feito com propósito — informe-se, proteja e aja. • Página educativa sobre casamento infantil.</small>
+    </footer>
+  </div>
+
+  <script>
+    // smooth scroll for in-page links
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click',function(e){
+        const id = this.getAttribute('href');
+        if(id === '#') return;
+        const el = document.querySelector(id);
+        if(el){e.preventDefault();el.scrollIntoView({behavior:'smooth',block:'start'});} 
+      });
+    });
+  </script>
+</body>
+</html>
+
+
